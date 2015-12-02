@@ -31,5 +31,20 @@ namespace RealityJinak.Controllers
 
             return View();
         }
+
+        public ActionResult ServicesBuyers()
+        {
+            ViewBag.Message = "Služby pro kupující ";
+
+            return View();
+        }
+
+        public ActionResult ServicesSellers()
+        {
+            ViewBag.Message = "Služby pro prodávající ";
+
+            return View();
+        }
+
     }
 }
