@@ -45,6 +45,5 @@ namespace RealityJinak.Controllers
 
             return View();
         }
-
     }
 }

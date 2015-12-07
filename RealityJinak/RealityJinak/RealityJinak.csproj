@@ -171,6 +171,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PriceController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -191,6 +192,7 @@
     <Content Include="Content\Pictures\RealityJinak.ico" />
     <Content Include="Content\Pictures\RealityJinakLogo_1024.png" />
     <Content Include="Content\Pictures\RealityJinakLogo_64.png" />
+    <Content Include="Content\Pictures\RealityJinak_Logo2_124.png" />
     <Content Include="Content\Pictures\RealityJinak_SlideFinal.png" />
     <Content Include="Content\Pictures\Slide01.png" />
     <Content Include="Content\Pictures\Slide02.png" />
@@ -258,6 +260,12 @@
     <Content Include="Views\Home\CarouselView.cshtml" />
     <Content Include="Views\Home\ServicesBuyers.cshtml" />
     <Content Include="Views\Home\ServicesSellers.cshtml" />
+    <Content Include="Views\Price\Index.cshtml" />
+    <Content Include="Views\Price\Buyer.cshtml" />
+    <Content Include="Views\Price\Seller.cshtml" />
+    <Content Include="Views\Price\Landlord.cshtml" />
+    <Content Include="Views\Shared\Motto.cshtml" />
+    <Content Include="Views\Shared\ItemPrice.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,25 +1,43 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Služby pro prodávající";
 }
 
-<h2>Služby pro prodávající</h2>
+<style>
+    .showMore
+    {
+        font-weight: bold;
+    }
+</style>
 
-<blockquote>
-    <p>
-        Každý jsme jiný a proto i každý potřebujeme jiný rozsah služeb. 
-        Někomu postačí pouze „nakopnutí“ a získání informací a jiný upřednostní komplexní převzetí všech úkonů spojených s 
-        prodejem nebo pronájmem nemovitosti. Nebudu po vás chtít 5% z ceny nemovitosti, proč taky? Platíte právníkovi dle objemu obchodu? 
-        Nebo inzerci? Nebo nějaké jiné vedlejší náklady? Ne, ne a ne. A proto už dopředu víte, kolik zaplatíte. Fixní částka za předem jasně dané úkony. 
-        Nic víc. Je pravda, že u některých realitek platí provizi kupující. Ale můžu vás ubezpečit, že kupujícímu je jedno, jaká část z celkové ceny tvoří díl pro realitku a 
-        díl pro prodávajícího. Kupující si to prostě sečte, takže pokud se vám podaří snížit díl pro realitku, věřte tomu, že můžete zvýšit díl pro prodávajícího :).
+<br />
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h5>
+            <span class="label label-primary">Služby pro prodávající</span>
+        </h5>
+    </div>
+    <div class="panel-body">
+        Každý jsme jiný a proto i každý potřebujeme jiný rozsah služeb. Někomu postačí pouze „nakopnutí“ a 
+        získání informací a jiný upřednostní komplexní převzetí všech úkonů spojených s prodejem nebo pronájmem nemovitosti. 
+        Nebudu po vás chtít 5% z ceny nemovitosti, proč taky? Platíte právníkovi dle objemu obchodu? Nebo inzerci? 
+        Nebo nějaké jiné vedlejší náklady? Ne, ne a ne. A proto už dopředu víte, kolik zaplatíte. 
+        Fixní částka za předem jasně dané úkony. Nic víc. Je pravda, že u některých realitek platí provizi kupující. 
+        Ale můžu vás ubezpečit, že kupujícímu je jedno, jaká část z celkové ceny tvoří díl pro realitku a díl pro prodávajícího. 
+        Kupující si prostě sečte náklady na nemovitost, takže pokud se vám podaří snížit díl pro realitku, věřte tomu, že můžete zvýšit díl pro prodávajícího.
+        <br />
 
-        Za prodej nemovitosti u nás zaplatíte maximálně 50 000 a to za komplexní služby včetně sestavení daňového přiznání pro daň z nabytí nemovitosti. 
-        Pokud vám bude stačit jenom základní paket služeb, bude vás stát jenom 5000. Pro podrobnější informace a ceny mě neváhejte kdykoliv informovat,
-    </p>
-    <footer>
-        <h4>
-            Přesvědčte se sami :)
-        </h4>
-    </footer>
-</blockquote>
+        Za prodej nemovitosti u nás zaplatíte <span class="text-info showMore">maximálně 50 000 a to za komplexní služby </span>
+        včetně bankovní úschovy a jiných nadstandardních služeb. Pokud vám bude stačit jenom základní paket služeb, bude vás stát jenom 5000. 
+        Konkrétní úkony a ceny viz ceník. Je možné volit i jiné úkony a jejich rozsah, ceny budou potom stanoveny dohodou.
+        <br />
+
+        Pro srovnání – u bytu v ceně 2,6 milionu – provize realitky činí většinou 5% - tj. 130 000 korun. 
+        Za tuto cenu určitě nenabízí nic navíc, většina za tuto cenu vám ani nenabídne úschovu kupní ceny v bance, což považuji za jeden z nejbezpečnější způsob převodu.
+        <br />
+
+        <span class="text-info showMore">Nepřipadá Vám zbytečné platit víc za služby, které nejsou lepší? </span>
+    </div>
+    <div class="panel-footer rightItemPricePossitionLebsoft">
+        @Html.Partial("Motto")
+    </div>
+</div>

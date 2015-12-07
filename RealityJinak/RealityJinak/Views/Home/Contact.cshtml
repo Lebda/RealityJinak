@@ -1,18 +1,33 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "O nás";
 }
-<div>
-    <img src="~/Content/Pictures/RealityJinakLogo_1024.png" alt="Reality jinak s.r.o.">
-</div>
 
-<blockquote>
-    <p> Reality jsou už spoustu let mým koníčkem. Znám nemovitosti, které se prodávaly 6 let, znám i takové, které se prodaly během týdne. Vzhledem k mé stěhovavé minulosti jsem navštívila několik bytů či domů,
-        často i v doprovodu realitního makléře. Byla jsem mnohokrát negativně překvapena jejich přístupem, měli chabé nebo žádné informace o obci a okolí, nikdy mi neposkytli územní plán,
-        neměli dokonce ani přehled o prodávaných nemovitostech v blízkosti.... Jejich jediným cílem je objekt prodat či pronajmout a obdržet provizi. A proto si myslím, že i s těmi tisíci realitními kancelářemi,
-        které u nás jsou, existuje pořád prostor pro jednu další, kde hlavním motivem je pocit uspokojení z dobře vykonané práce. Chci prostě dělat reality jinak... Lépe, levněji a s osobním zájmem. </p>
-    <footer>
-        <h4>
-            Přesvědčte se sami :)
-        </h4>
-    </footer>
-</blockquote>
+<style>
+    .showMore {
+        font-weight: bold;
+    }
+</style>
+
+<br />
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h5>
+            <span class="label label-primary">O nás </span>
+        </h5>
+    </div>
+    <div class="panel-body">
+        Reality jsou už spoustu let mým koníčkem. Znám nemovitosti, které se prodávaly 6 let, znám i takové, které se prodaly během týdne. 
+        Vzhledem k mé stěhovavé minulosti jsem navštívila několik bytů či domů, často i v doprovodu realitního makléře. 
+        Byla jsem mnohokrát negativně překvapena jejich přístupem, měli chabé nebo žádné informace o obci a okolí, 
+        nikdy mi neposkytli územní plán, neměli dokonce ani přehled o prodávaných nemovitostech v blízkosti.... 
+        Jejich jediným cílem je objekt prodat či pronajmout a obdržet provizi. A proto si myslím, že i s těmi tisíci realitními kancelářemi, 
+        které u nás jsou, existuje pořád prostor pro jednu další, kde hlavním motivem je pocit uspokojení z dobře vykonané práce.
+        <br />
+
+        <span class="text-info showMore">Chci prostě dělat reality jinak... Lépe, levněji a s osobním zájmem.</span>
+
+    </div>
+    <div class="panel-footer rightItemPricePossitionLebsoft">
+        @Html.Partial("Motto")
+    </div>
+</div>

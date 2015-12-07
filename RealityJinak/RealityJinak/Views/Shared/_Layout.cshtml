@@ -16,20 +16,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
                     </button>
                     @Html.ActionLink("Reality jinak", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
                         <li>@Html.ActionLink("O nás", "Contact", "Home")</li>
                         <li>@Html.ActionLink("Služby pro prodávající", "ServicesSellers", "Home")</li>
                         <li>@Html.ActionLink("Služby pro kupující", "ServicesBuyers", "Home")</li>
-                        <li>@Html.ActionLink("Nabízíme/hledáme", "Offers", "Home")</li>
+                        <li>@Html.ActionLink("Ceník služeb", "Index", "Price")</li>
                     </ul>
-                    @Html.Partial("_LoginPartial")
+                    @*@Html.Partial("_LoginPartial")*@
                 </div>
             </div>
         </div>
@@ -39,18 +36,18 @@
             <footer>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 text-left">
+                        <div class="col-md-5 text-left">
                             <img src="~/Content/Pictures/RealityJinakLogo_64.png" alt="Reality jinak s.r.o.">
                         </div>
-                        <div class="col-md-6 text-center">
+                        <div class="col-md-2 centerAdressLebsoft">
                             <address>
-                                <img src="~/Content/Pictures/RealityJinakLogo_64.png" width="16" height="16" alt="Reality jinak s.r.o."><strong>Reality jinak s.r.o.</strong><br>
-                                <div>Ing.Markéta Lopraisová</div>
-                                <a href="mailto:#">first.last@example.com</a><br>
-                                <abbr title="Phone">P:</abbr> (123) 456-7890
+                                <img src="~/Content/Pictures/RealityJinak_Logo2_124.png" width="16" height="16" alt="Reality jinak s.r.o." /><strong> Reality jinak s.r.o.</strong><br>
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Ing.Markéta Lopraisová <br />
+                                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:#"> m_loprais@centrum.cz</a><br>
+                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> +420 724 761 124
                             </address>
                         </div>
-                        <div class="col-md-3 text-right">
+                        <div class="col-md-5 text-right">
                             <img src="~/Content/Pictures/LebsoftLogo_64.png" alt="Lebsoft s.r.o.">
                         </div>
                     </div>
